@@ -31,8 +31,8 @@ document.getElementById("navbar").innerHTML = `
     <div id="resNav" style="width: 0%;" class="overflow-hidden transition-all duration-500 h-screen bg-[#1f232f] flex items-center justify-center fixed top-0 left-0 z-50">
         <i class="fa-solid fa-x text-white text-xl absolute top-8 right-8 cursor-pointer " id="closeNav"></i>
         <ul class="flex flex-col  gap-8 text-white font-medium">
-            <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">Home</a></li>
-            <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">About</a></li>
+            <li><a href="/index.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Home</a></li>
+            <li><a href="/about.html" class="navUnderLine hover:text-[#5e78c7] transition-all">About</a></li>
             <li id="dropDownres" class="relative  py-2">
                 <div class="navUnderLine hover:text-[#5e78c7] transition-all flex items-center gap-2">Services
                     <i class="fa-solid fa-sort-down mb-1"></i>
@@ -53,16 +53,16 @@ document.getElementById("navbar").innerHTML = `
                     </a>
                 </ul>
             </li>
-            <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">Blog</a></li>
-            <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">Contact</a></li>
+            <li><a href="/blog.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Blog</a></li>
+            <li><a href="/contact.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Contact</a></li>
         </ul>
     </div>
     <div class="bg-[#1f232f] px-5">
         <nav class="max-w-7xl w-full h-20 mx-auto flex items-center justify-between ">
 
             <ul class="lg:flex hidden items-center gap-8 text-white font-medium">
-                <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">Home</a></li>
-                <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">About</a></li>
+                <li><a href="/index.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Home</a></li>
+                <li><a href="/about.html" class="navUnderLine hover:text-[#5e78c7] transition-all">About</a></li>
                 <li class="relative dropDown py-2"><a href=""
                         class="navUnderLine hover:text-[#5e78c7] transition-all flex items-center gap-2">Services
                         <i class="fa-solid fa-sort-down mb-1"></i>
@@ -83,8 +83,8 @@ document.getElementById("navbar").innerHTML = `
                         </a>
                     </ul>
                 </li>
-                <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">Blog</a></li>
-                <li><a href="" class="navUnderLine hover:text-[#5e78c7] transition-all">Contact</a></li>
+                <li><a href="/blog.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Blog</a></li>
+                <li><a href="/contact.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Contact</a></li>
             </ul>
 
             <div class="flex items-center justify-center gap-5">

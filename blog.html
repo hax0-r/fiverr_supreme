@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPREME PROTECTION GROUP</title>
+    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Docs/Style/global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <div
+        class="bg-[#1f232f] flex items-center justify-center text-white md:py-36 py-20 p-5 border-t flex-col md:gap-4 gap-2">
+        <h1 class="md:text-6xl text-4xl font-bold uppercase">Blog Us</h1>
+        <p class="max-w-2xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur temporibus,
+            voluptatibus beatae in tempora quo nisi porro error libero corrupti.</p>
+    </div>
+
+
+
+    <div class="max-w-7xl w-full mx-auto pb-16 p-5">
+
+        <div id="card-container"
+            class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 cursor-default md:mt-12 mt-8 gap-x-5 gap-y-8">
+            <!-- Cards will be injected here -->
+        </div>
+        
+    </div>
+
+
+
+
+
+
+    <div id="footer"></div>
+
+</body>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="/Docs/javascript/navbar.js"></script>
+<script src="/Docs/javascript/footer.js"></script>
+
+<script>
+    const lenis = new Lenis()
+
+    function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+
+    const cardsData = [
+        {
+            title: "Best Smoke Alarm Installation Company in Australia",
+            description: "You can never be too careful when it comes to protecting your home from fire. And one of the best ways to do that is",
+            link: "#",
+            date: "8 June 2023",
+            comments: "No Comments"
+        },
+        {
+            title: "Top 10 Security Systems in 2023",
+            description: "Stay safe with our top-rated security systems. Here are the best options to consider.",
+            link: "#",
+            date: "15 July 2023",
+            comments: "5 Comments"
+        },
+        {
+            title: "How to Choose the Right Home Insurance",
+            description: "Get tips on choosing the best home insurance policy to protect your property.",
+            link: "#",
+            date: "22 August 2023",
+            comments: "3 Comments"
+        },
+        {
+            title: "How to Choose the Right Home Insurance",
+            description: "Get tips on choosing the best home insurance policy to protect your property.",
+            link: "#",
+            date: "22 August 2023",
+            comments: "3 Comments"
+        },
+        {
+            title: "How to Choose the Right Home Insurance",
+            description: "Get tips on choosing the best home insurance policy to protect your property.",
+            link: "#",
+            date: "22 August 2023",
+            comments: "3 Comments"
+        },
+        {
+            title: "How to Choose the Right Home Insurance",
+            description: "Get tips on choosing the best home insurance policy to protect your property.",
+            link: "#",
+            date: "22 August 2023",
+            comments: "3 Comments"
+        },
+    ];
+
+    const cardContainer = document.getElementById('card-container');
+
+    cardsData.forEach((card) => {
+        const cardHTML = `
+            <div class="border md:px-6 md:pt-6 pt-4 px-4 bg-white transition-all hover:shadow-xl hover:-translate-y-2 rounded-sm hover:rounded-lg duration-500 w-full text-[#1f232f] mx-auto">
+                <h2 class="tracking-tight [word-spacing:1px] !leading-tight md:pb-4 pb-2 md:text-2xl text-xl font-semibold">${card.title}</h2>
+                <p class="md:pb-12 pb-6">${card.description}</p>
+                <a href="${card.link}" class="inline-flex items-center gap-1 transition-all hover:gap-2">Read More 
+                    <i class="fa-solid fa-angles-right text-sm"></i>
+                </a>
+                <div class="flex items-center gap-6 text-zinc-400 p-3 mt-5 border-t border-zinc-300">
+                    <span>${card.date}</span>
+                    <span>${card.comments}</span>
+                </div>
+            </div>
+        `;
+        cardContainer.innerHTML += cardHTML;
+    });
+</script>
+
+</html>

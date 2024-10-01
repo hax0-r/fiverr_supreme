@@ -62,6 +62,6 @@ document.getElementById("footer").innerHTML = `
         </div>
     </footer>
 
-    <div class="flex items-center justify-center p-2 bg-[#121726] border-t text-center text-white font-medium">Copyright
+    <div class="flex items-center justify-center p-2 bg-[#121726] border-t text-center text-white font-medium">Copyright &copy;
         2024 SUPREME PROTECTION GROUP PTY LTD</div>
 `

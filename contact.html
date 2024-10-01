@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPREME PROTECTION GROUP</title>
+    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Docs/Style/global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <div
+        class="bg-[#1f232f] flex items-center justify-center text-white md:py-36 py-20 p-5 border-t flex-col md:gap-4 gap-2">
+        <h1 class="md:text-6xl text-4xl font-bold uppercase">Contact Us</h1>
+        <p class="max-w-2xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur temporibus,
+            voluptatibus beatae in tempora quo nisi porro error libero corrupti.</p>
+    </div>
+
+
+
+    <div class="bg-[#121726] md:mt-10 border-b">
+        <div
+            class="max-w-7xl p-5 w-full mx-auto flex items-center justify-center md:flex-row flex-col-reverse md:gap-16 gap-6 md:py-16 py-8">
+
+            <div class="md:max-w-[50%] w-full text-[#ffffff]">
+                <h2 class="md:text-4xl text-3xl font-bold ">Need Security Services?</h2>
+                <p class=" pt-3">Let our highly skilled team provide you a free, on site evaluation of your home or
+                    business security needs. We will recommend a design with the most cost effective services and
+                    equipment that will best meet all your security needs.
+                    <br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eos temporibus architecto praesentium, dolorem dolor rerum
+                </p>
+                <h2 class="md:text-2xl text-xl pt-8 font-medium ">Call Now: 1300 240 620</h2>
+            </div>
+            <div class="md:max-w-[50%] w-full ">
+                <img src="https://img.freepik.com/free-photo/portrait-male-security-guard-with-uniform_23-2150368713.jpg?size=626&ext=jpg&ga=GA1.1.427260846.1727756127&semt=ais_hybrid" class="w-full rounded-lg shadow-xl" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div id="footer"></div>
+
+</body>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="/Docs/javascript/navbar.js"></script>
+<script src="/Docs/javascript/footer.js"></script>
+
+<script>
+    const lenis = new Lenis()
+
+    function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+</script>
+
+</html>
