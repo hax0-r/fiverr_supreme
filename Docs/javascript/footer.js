@@ -21,12 +21,12 @@ document.getElementById("footer").innerHTML = `
                 <h2 class="md:text-2xl text-xl font-medium">Our Services</h2>
 
                 <ul class="space-y-3 md:mt-6 mt-4">
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Services</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
+                    <li><a href="/index.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
+                    <li><a href="/aout.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
                     </li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Blog</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Contact Us</a>
+                    <li><a href="/services/Alarm-monitoring.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Services</a></li>
+                    <li><a href="/blog.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Blog</a></li>
+                    <li><a href="/contact.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -35,19 +35,18 @@ document.getElementById("footer").innerHTML = `
                 <h2 class="md:text-2xl text-xl font-medium">Important Links</h2>
 
                 <ul class="space-y-3 md:mt-6 mt-4">
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Services</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
+                    <li><a href="/index.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
+                    <li><a href="/about.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
                     </li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Blog</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Contact Us</a>
-                    </li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Services</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
-                    </li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Blog</a></li>
-                    <li><a href="" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Contact Us</a>
+                    <li><a  class="text-[#ffffff99] ">Services</a></li>
+                    <li><a href="/services/Alarm-monitoring.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  Alarm Monitoring</a></li>
+                    <li><a href="/services/cctv-sales.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  CCTV Sales</a></li>
+                    <li><a href="/services/Alarm-installation.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  Alarm Installation</a></li>
+                    <li><a href="/services/alarm-response.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  Alarm Response</a></li>
+                    <li><a href="/services/event-security.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  Event Security</a></li>
+                    <li><a href="/services/mobile.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">- Mobile Patrol Security</a></li>
+                    <li><a href="/blog.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Blog</a></li>
+                    <li><a href="/contact.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -62,6 +61,6 @@ document.getElementById("footer").innerHTML = `
         </div>
     </footer>
 
-    <div class="flex items-center justify-center p-2 bg-[#121726] border-t text-center text-white font-medium">Copyright &copy;
+    <div class="flex items-center justify-center p-2 bg-[#121726] border-t text-center text-white font-medium">Copyright &copy; 
         2024 SUPREME PROTECTION GROUP PTY LTD</div>
 `

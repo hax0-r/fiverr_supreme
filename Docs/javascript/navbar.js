@@ -38,19 +38,30 @@ document.getElementById("navbar").innerHTML = `
                     <i class="fa-solid fa-sort-down mb-1"></i>
                 </div>
                 <ul id="dropDownShowRes"
-                    class=" fadeIn hidden z-20 bg-white text-[#1f232f] w-[20rem] overflow-hidden border top-10 mt-8 rounded-lg">
+                    class=" fadeIn hidden z-20 bg-white text-[#1f232f] w-[18rem] overflow-hidden border top-10 mt-8 rounded-lg">
                     <a href="/services/Alarm-monitoring.html" class="py-2 w-full">
                         <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Monitoring</li>
                     </a>
-                    <a href="#" class="py-2 w-full">
-                        <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
-                    </a>
-                    <a href="#3" class="py-2 w-full">
-                        <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
-                    </a>
-                    <a href="#4" class="py-2 w-full">
-                        <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
-                    </a>
+                        <a href="/services/cctv-sales.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">CCTV Sales and Service
+</li>
+                        </a>
+                        <a href="/services/Alarm-installation.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Installation and Services
+</li>
+                        </a>
+                        <a href="/services/alarm-response.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Response
+</li>
+                        </a>
+                        <a href="/services/event-security.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Event Security
+</li>
+                        </a>
+                        <a href="/services/mobile.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Mobile Patrol Security 
+</li>
+                        </a>
                 </ul>
             </li>
             <li><a href="/blog.html" class="navUnderLine hover:text-[#5e78c7] transition-all">Blog</a></li>
@@ -68,19 +79,30 @@ document.getElementById("navbar").innerHTML = `
                         <i class="fa-solid fa-sort-down mb-1"></i>
                     </a>
                     <ul
-                        class="dropDownShow absolute z-20 bg-white text-[#1f232f] w-[10rem] overflow-hidden border top-10 fastFadeIn rounded-lg">
+                        class="dropDownShow absolute z-20 bg-white text-[#1f232f] w-[18rem] overflow-hidden border top-10 fastFadeIn rounded-lg">
                         <a href="/services/Alarm-monitoring.html" class="py-2 w-full">
-                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Monitoring</li>
+                            <li class="hover:bg-[#1f232f] p-3 pt-4 hover:text-white transition-all w-full">Alarm Monitoring</li>
 
                         </a>
-                        <a href="" class="py-2 w-full">
-                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
+                        <a href="/services/cctv-sales.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3  hover:text-white transition-all w-full">CCTV Sales and Service
+</li>
                         </a>
-                        <a href="" class="py-2 w-full">
-                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
+                        <a href="/services/Alarm-installation.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Installation and Services
+</li>
                         </a>
-                        <a href="" class="py-2 w-full">
-                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
+                        <a href="/services/alarm-response.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Response
+</li>
+                        </a>
+                        <a href="/services/event-security.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Event Security
+</li>
+                        </a>
+                        <a href="/services/mobile.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 pb-4 hover:text-white transition-all w-full">Mobile Patrol Security 
+</li>
                         </a>
                     </ul>
                 </li>
