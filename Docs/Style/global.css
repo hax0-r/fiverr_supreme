@@ -50,6 +50,7 @@
         width: 100%;
     }
 }
+
 .navUnderLineOn {
     position: relative;
     padding: 0 2px;
@@ -111,4 +112,11 @@
         opacity: 1;
         z-index: 99;
     }
+}
+
+img,
+a,
+button,
+iframe {
+    user-select: none;
 }
