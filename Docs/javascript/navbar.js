@@ -38,9 +38,9 @@ document.getElementById("navbar").innerHTML = `
                     <i class="fa-solid fa-sort-down mb-1"></i>
                 </div>
                 <ul id="dropDownShowRes"
-                    class=" fadeIn hidden z-20 bg-white text-[#1f232f] w-[10rem] overflow-hidden border top-10 mt-8 rounded-lg">
-                    <a href="#1" class="py-2 w-full">
-                        <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
+                    class=" fadeIn hidden z-20 bg-white text-[#1f232f] w-[20rem] overflow-hidden border top-10 mt-8 rounded-lg">
+                    <a href="/services/Alarm-monitoring.html" class="py-2 w-full">
+                        <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Monitoring</li>
                     </a>
                     <a href="#" class="py-2 w-full">
                         <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
@@ -69,8 +69,9 @@ document.getElementById("navbar").innerHTML = `
                     </a>
                     <ul
                         class="dropDownShow absolute z-20 bg-white text-[#1f232f] w-[10rem] overflow-hidden border top-10 fastFadeIn rounded-lg">
-                        <a href="" class="py-2 w-full">
-                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
+                        <a href="/services/Alarm-monitoring.html" class="py-2 w-full">
+                            <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">Alarm Monitoring</li>
+
                         </a>
                         <a href="" class="py-2 w-full">
                             <li class="hover:bg-[#1f232f] p-3 hover:text-white transition-all w-full">First</li>
