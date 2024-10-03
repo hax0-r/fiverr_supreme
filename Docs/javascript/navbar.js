@@ -1,7 +1,9 @@
-document.getElementById("navbar").innerHTML = `
-          <div class="flex items-center justify-center p-2 bg-[#1f232f] text-center text-white font-medium">5/5 Star Rating
+{/* <div class="flex items-center justify-center p-2 bg-[#1f232f] text-center text-white font-medium">5/5 Star Rating
         Based on 888 Client
-        Reviews</div>
+        Reviews</div> */}
+
+document.getElementById("navbar").innerHTML = `
+          
 
     <div class="flex px-5 my-2 lg:items-center lg:flex-row gap-5 flex-col lg:justify-between max-w-7xl mx-auto w-full">
         <a href="/index.html" class="bg-[#1f232f] w-[7rem] h-[7rem] flex items-center justify-center rounded-full ">
