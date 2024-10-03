@@ -22,9 +22,9 @@ document.getElementById("footer").innerHTML = `
 
                 <ul class="space-y-3 md:mt-6 mt-4">
                     <li><a href="/index.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
-                    <li><a href="/aout.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
+                    <li><a href="/about.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">About Us</a>
                     </li>
-                    <li><a href="/services/Alarm-monitoring.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Services</a></li>
+                    <li><a href="/services/Alarm-monitoring.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Our Services</a></li>
                     <li><a href="/blog.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Blog</a></li>
                     <li><a href="/contact.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Contact Us</a>
                     </li>
@@ -36,9 +36,9 @@ document.getElementById("footer").innerHTML = `
 
                 <ul class="space-y-3 md:mt-6 mt-4">
                     <li><a href="/index.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Home</a></li>
-                    <li><a href="/about.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">Aboout Us</a>
+                    <li><a href="/about.html" class="text-[#ffffff99] hover:text-white transition-all hover:pl-2">About Us</a>
                     </li>
-                    <li><a  class="text-[#ffffff99] ">Services</a></li>
+                    <li><a  class="text-[#ffffff99] ">Our Services</a></li>
                     <li><a href="/services/Alarm-monitoring.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  Alarm Monitoring</a></li>
                     <li><a href="/services/cctv-sales.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  CCTV Sales</a></li>
                     <li><a href="/services/Alarm-installation.html" class="text-[#ffffff99] hover:text-white transition-all pl-5 hover:pl-7">-  Alarm Installation</a></li>
